@@ -73,3 +73,20 @@ section {
 .nav-link {
     text-align: center;
 }
+.bg-sinopsis {
+    background-color: #c8cace;
+}
+#topBtn {
+     position: fixed;
+     bottom: 40px;
+     right: 40px;
+     font-size: 22px;
+     width: 50px;
+     height: 50px;
+     background-color: #42275a;
+     color: white;
+     border: none;
+     cursor: pointer;
+     display: none;
+     z-index: 9;
+}
