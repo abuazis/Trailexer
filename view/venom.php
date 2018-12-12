@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
 
     <title>The Trailer Pro</title>
   </head>
@@ -20,7 +20,7 @@
     <!-- Navbar -->
       <nav class="navbar navbar-expand-lg warna-navbar">
         <a class="navbar-brand text-warning" href="#">
-            <img src="assets/img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="../assets/img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
             <b>Trailexer</b>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4">
             <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="../index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">Synopsis</a>
@@ -52,96 +52,46 @@
         </div>
         </nav>
 
-        <section>
-            <!-- header/jumbotron -->
-            <div class="slider marginatasfix">
-                <h3>COLLECTIONS OF SYNOPSIS & TRAILER</h3>
-                <button type="button" class="btn btn-warning btn-lg tombol-header">SEE OUR COLLECTIONS</button>
-            </div>
-            <!-- akhir header/jumbotron -->
-        </section>
-
-        <!-- Popular Synopsis -->
-        <section class="lebar-sinopsis warna-navbar">
+        <section class="bg-sinopsis lebar-sinopsis ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center text-white mt-3"><b>Most Popular Film</b></h2>
+                        <h2 class="text-center text-white mt-3 text-dark"><b>Venom</b></h2>
                     </div>
                 </div> 
                 <div class="row">
                     <div class="col-md-4 mt-4">
                         <center>
-                            <a href="view/synopsis.php"><img class="shadow-img mt-4" src="assets/img/film.jpg" alt="San Andreas" width="300"></a>
-                            <h3 class="text-white mt-2">San Andreas (2015)</h3>
+                            <img class="shadow-img mt-4" src="../assets/img/venom.jpg" alt="San Andreas" width="300">
                         </center>
                     </div>
-                    <div class="col-md-4 mt-4">
-                        <center>
-                            <a href="view/star.php"><img class="shadow-img mt-4" src="assets/img/star.jpg" alt="San Andreas" width="300"></a>
-                            <h3 class="text-white mt-2 mb-4">Star Wars : Attack Of The Clones</h3>
-                        </center>
-                    </div>
-                    <div class="col-md-4 mt-4">
-                        <center>
-                            <a href="view/venom.php"><img class="shadow-img mt-4" src="assets/img/venom.jpg" alt="San Andreas" width="300"></a>
-                            <h3 class="text-white mt-2">Venom (2018)</h3>
-                        </center>
+                    <div class="col-md-8 mt-4 ml-12">
+                        <h3 class="text-white text-center text-dark">Venom (2018)</h3>
+                        <p class="text-white ml-6 float-right text-dark">
+                        Venom merupakan film anti-hero bergenre aksi sains fiksi yang diadaptasi dari karakter Marvel Comics berjuluk Venom atau Venom Symbiote karya dari David Michelinie dan Todd McFarlane. Film Venom digarap oleh Ruben Fleischer (The Mule, Unicorn Store) selaku sutradara dan diproduseri oleh Avi Arad (Ghost in the Shell, Spider-Man Into the Spider-Verse), Matt Tolmach (Jumanji Welcom to the Jungle, The Sinister Six) dan juga Amy Pascal (Molly’s Game, Spider-Man Far From Home).
+
+                        Didalam komiknya, Venom pertamakali muncul pada komik The Amazing Spider-Man#299 tahun 1988 dimana Venom digambarkan sebagai salah satu musuh Spider-Man, meskipun dalam penampilan selanjutnya, ia beberapa kali bekerja sama dengan Spider-Man. Venom dianggap sebagai sisi gelap dari Spider-Man karena kepribadiannya yang keras dan penampilan serta kekuatannya yang mirip dengan Spider-Man.
+
+                        Didalam filmnya sendiri, Venom pertama kali muncul pada film Spider-Man 3 (2007) dimana tokoh Spider-Man diperankan oleh Tobey Maguire.
+
+                        Dalam komik, symbiote Venom awalnya melekat pada Spider-Man (Peter Parker) selama kejadian Secret Wars pada 1984. Ketika dia menyadari jika kostumnya dapat hidup dan mengendalikan tubuhnya, Peter membuangnya. Dan kemudian symbiote itu mencari induk baru yaitu Eddie Brock, keduanya akan terikat bersama untuk membentuk Venom
+                        </p>
                     </div>
                 </div> 
             </div>
         </section>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/slide-1.png" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/slide-2.png" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/slide-3.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        </div>
 
         <section class="warna-navbar lebar-embed">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="text-center text-white mt-4 mb-4">Top Video Trailer</h3>
+                        <h3 class="text-center text-white mt-4 mb-4">Venom (2018)</h3>
                     </div> 
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://www.youtube.com/embed/MlWSX6L6zec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xLCn88bfW1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -166,7 +116,6 @@
             </div>
         </section>
 
-
         <footer class="bg-dark tinggi-footer">
             <div class="container">
                 <div class="row">
@@ -177,32 +126,12 @@
             </div>
         </footer>
 
-        <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(window).scroll(function(){
-                if($(this).scrollTop() > 40){
-                    $('#topBtn').fadeIn();
-                } else {
-                    $('#topBtn').fadeOut();
-                }
-            });
-
-            $("#topBtn").click(function(){
-                $('html, body').animate({scrollTop : 0},3000);
-            });
-        });
-    </script>
-    <script>
-        $('.carousel').carousel({
-        interval: 2000
-        })
-    </script>
   </body>
 </html>

@@ -4,9 +4,10 @@ body {
     overflow-x: hidden;
 }
 .warna-navbar {
-    background: #42275a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .lebar-sinopsis {
     min-height: 650px;
@@ -83,10 +84,11 @@ section {
      font-size: 22px;
      width: 50px;
      height: 50px;
-     background-color: #42275a;
+     background-color: salmon;
      color: white;
      border: none;
      cursor: pointer;
      display: none;
      z-index: 9;
+     border-radius: 5px;
 }

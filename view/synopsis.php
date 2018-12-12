@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4">
             <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="../index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">Synopsis</a>
@@ -86,7 +86,27 @@
             </div>
         </section>
 
-
+        <section class="warna-navbar lebar-embed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center text-white mt-4 mb-4">San Andreas Trailer</h3>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/MlWSX6L6zec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-warning float-right">See Another Video Trailer &gt;&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="bg-dark section-footer">
             <div class="container">
@@ -111,7 +131,7 @@
             </div>
         </footer>
 
-        <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
