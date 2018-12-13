@@ -55,7 +55,7 @@
         <section>
             <!-- header/jumbotron -->
             <div class="slider marginatasfix">
-                <h3>COLLECTIONS OF SYNOPSIS & TRAILER</h3>
+                <h5>COLLECTIONS OF SYNOPSIS & TRAILER</h5>
                 <button type="button" class="btn btn-warning btn-lg tombol-header">SEE OUR COLLECTIONS</button>
             </div>
             <!-- akhir header/jumbotron -->
@@ -73,22 +73,42 @@
                     <div class="col-md-4 mt-4">
                         <center>
                             <a href="view/synopsis.php"><img class="shadow-img mt-4" src="assets/img/film.jpg" alt="San Andreas" width="300"></a>
-                            <h3 class="text-white mt-2">San Andreas (2015)</h3>
+                            <h3 class="text-white mt-2 mb-2">San Andreas (2015)</h3>
+                            <a href="view/synopsis.php"><button class="btn btn-block btn-warning"> Detail Film </button></a>
                         </center>
                     </div>
                     <div class="col-md-4 mt-4">
                         <center>
                             <a href="view/star.php"><img class="shadow-img mt-4" src="assets/img/star.jpg" alt="San Andreas" width="300"></a>
-                            <h3 class="text-white mt-2 mb-4">Star Wars : Attack Of The Clones</h3>
+                            <h5 class="text-white mt-2 mb-3">Star Wars : Attack Of The Clones</h5>
+                            <a href="view/star.php"><button class="btn btn-block btn-warning"> Detail Film </button></a>
                         </center>
                     </div>
                     <div class="col-md-4 mt-4">
                         <center>
                             <a href="view/venom.php"><img class="shadow-img mt-4" src="assets/img/venom.jpg" alt="San Andreas" width="300"></a>
                             <h3 class="text-white mt-2">Venom (2018)</h3>
+                            <a href="view/venom.php"><button class="btn btn-block btn-warning"> Detail Film </button></a>
                         </center>
                     </div>
                 </div> 
+                <div class="row">
+                    <div class="col-md-4 mt-4">
+                        <center>
+                            
+                        </center>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <center>
+                            
+                        </center>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                        <center>
+                            
+                        </center>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -102,22 +122,22 @@
             <div class="carousel-item active">
                 <img class="d-block w-100" src="assets/img/slide-1.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h1>Star Wars 2 : Attack Of The Clones</h1>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/slide-2.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h1>Star Wars 2 : Attack Of The Clones</h1>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/slide-3.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h1>Star Wars 2 : Attack Of The Clones</h1>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
                 </div>
             </div>
         </div>
